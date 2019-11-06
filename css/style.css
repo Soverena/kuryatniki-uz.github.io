@@ -1,0 +1,223 @@
+* {
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:sans-serif;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+}
+    
+body {
+    margin: 0;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222;
+    background-color: #fff;
+}
+
+header {
+    display: block;
+}
+
+.smt-head {
+    height: auto;
+}
+
+.smt-navbar__content {
+    padding: 32px 0;
+    padding-top: 32px;
+    padding-right: 0px;
+    padding-bottom: 32px;
+    padding-left: 0px;
+}
+
+.col-md-3,.col-lg-3,.col-md-9,.col-lg-9,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12 {
+    position:relative;
+    min-height:1px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.container {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.clearfix {
+    width: 285px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    display: block;
+}
+
+.smt-affix-hidden {
+    width: 201px;
+}
+
+.smt-top-bar__contact {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.smt-contact__phone {
+    margin-right: 20px;
+}
+
+.smt-contact__phone .fa {
+    color: #bf0101;
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 10px;
+    width: 20px;
+    height: 24px;
+    border-radius: 100%;
+    font: normal normal normal 14px/1 FontAwesome; 
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-clock-o {
+    color: #bf0101;
+}
+
+.smt-contact__phone span, .smt-contact__phone a {
+    font-size: 24px;
+    font-weight: 700;
+    color: #bf0101;
+}
+
+.work_time {
+    margin-right: 10px;
+} 
+
+a.smt-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14 10px;
+    font-size: 14px;
+    line-height: 1.5;
+	color: #fafafa;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 0px;
+	background: #bf0101;
+}
+
+a:hover {
+    color: #000;
+}
+
+.smt-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+}
+
+.smt-menu-main {
+    z-index: 999;
+    position: relative;
+}
+
+.smt-menu-main, .smt-menu-main ul, .smt-menu-main li {
+    direction: ltr;
+    display: block;
+    line-height: normal;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.smt-menu-main_right {
+    text-align: right;
+}
+
+.smt-menu-main ul {
+    border-top-color: #bf0101;
+}
+
+.col-xs-12 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*
+.smt-btn {
+    background-color: #bf0101;
+    color: #ffffff;
+    padding: 8px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 0;
+    color: #000;
+    background-color: #FFCD4B;
+    border-color: transparent;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.smt-btn {
+    background-color: #bf0101;
+    color: #ffffff;
+    padding: 8px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 0;
+    color: #000;
+    background-color: #FFCD4B;
+    border-color: transparent;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.smt-btn-sm {
+    padding: 4px 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 0;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
